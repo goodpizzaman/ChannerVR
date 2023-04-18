@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - svCatalogWall
+  - catalogButton
+  - svThreadOverlay1
+  - threadObj1
+  - svThreadOverlay2
+  - svThreadOverlay3
+  - svThreadOverlay4
+  - svThreadOverlay5
+  - svThreadOverlay6
+  - threadObj2
+  - threadObj3
+  - threadObj4
+  - threadObj5
+  - threadObj6
+  - catalogMessage
+  - webm1
+  - webmPlayer1
+  - webm2
+  - webm3
+  - webm4
+  - webm5
+  - webm6
+  - webmPlayer2
+  - webmPlayer3
+  - webmPlayer4
+  - webmPlayer5
+  - webmPlayer6
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

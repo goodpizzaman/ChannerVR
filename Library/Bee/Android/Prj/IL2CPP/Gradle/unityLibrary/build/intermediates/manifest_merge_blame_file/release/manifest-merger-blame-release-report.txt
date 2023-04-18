@@ -1,0 +1,199 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.unity3d.player"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="29"
+9-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml
+11
+12    <uses-feature
+12-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:3-111
+13        android:name="android.hardware.vr.headtracking"
+13-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:17-64
+14        android:required="true"
+14-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:85-108
+15        android:version="1" />
+15-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:65-84
+16    <uses-feature android:glEsVersion="0x00020000" />
+16-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:3-52
+16-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:17-49
+17    <uses-feature android:name="android.hardware.vulkan.version" />
+17-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:3-66
+17-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:17-63
+18
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:3-65
+19-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:20-62
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:3-77
+20-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:20-74
+21    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+21-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:31:3-69
+21-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:31:20-66
+22    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+22-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:32:3-78
+22-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:32:20-75
+23
+24    <uses-feature
+24-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:33:3-87
+25        android:name="android.hardware.microphone"
+25-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:33:17-59
+26        android:required="false" />
+26-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:33:60-84
+27    <uses-feature
+27-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:34:3-88
+28        android:name="android.hardware.touchscreen"
+28-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:34:17-60
+29        android:required="false" />
+29-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:34:61-85
+30    <uses-feature
+30-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:35:3-99
+31        android:name="android.hardware.touchscreen.multitouch"
+31-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:35:17-71
+32        android:required="false" />
+32-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:35:72-96
+33    <uses-feature
+33-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:36:3-108
+34        android:name="android.hardware.touchscreen.multitouch.distinct"
+34-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:36:17-80
+35        android:required="false" />
+35-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:36:81-105
+36
+37    <application
+37-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:3-25:17
+38        android:allowBackup="false"
+38-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:81-108
+39        android:extractNativeLibs="true"
+39-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:109-141
+40        android:icon="@mipmap/app_icon"
+40-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:49-80
+41        android:label="@string/app_name"
+41-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:16-48
+42        android:networkSecurityConfig="@xml/network_sec_config" >
+42-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:142-197
+43        <activity
+43-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:5-12:16
+44            android:name="com.unity3d.player.UnityPlayerActivity"
+44-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:80-133
+45            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode|density"
+45-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:238-347
+46            android:excludeFromRecents="true"
+46-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:134-167
+47            android:hardwareAccelerated="false"
+47-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:383-418
+48            android:launchMode="singleTask"
+48-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:206-237
+49            android:resizeableActivity="false"
+49-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:348-382
+50            android:screenOrientation="landscape"
+50-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:168-205
+51            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+51-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:15-79
+52            <intent-filter>
+52-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:5:7-9:23
+53                <action android:name="android.intent.action.MAIN" />
+53-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:9-61
+53-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:17-58
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:9-69
+55-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:19-66
+56                <category android:name="com.oculus.intent.category.VR" />
+56-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:9-66
+56-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:19-63
+57            </intent-filter>
+58
+59            <meta-data
+59-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:7-78
+60                android:name="android.notch_support"
+60-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:18-54
+61                android:value="true" />
+61-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:55-75
+62            <meta-data
+62-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:7-81
+63                android:name="com.oculus.vr.focusaware"
+63-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:18-57
+64                android:value="true" />
+64-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:58-78
+65        </activity>
+66
+67        <meta-data
+67-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:5-89
+68            android:name="unityplayer.SkipPermissionsDialog"
+68-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:16-64
+69            android:value="false" />
+69-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:65-86
+70        <meta-data
+70-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:5-97
+71            android:name="com.samsung.android.vr.application.mode"
+71-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:16-70
+72            android:value="vr_only" />
+72-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:71-94
+73        <meta-data
+73-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:5-69
+74            android:name="unity.splash-mode"
+74-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:16-48
+75            android:value="0" />
+75-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:49-66
+76        <meta-data
+76-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:5-74
+77            android:name="unity.splash-enable"
+77-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:16-50
+78            android:value="True" />
+78-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:51-71
+79        <meta-data
+79-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:5-78
+80            android:name="unity.launch-fullscreen"
+80-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:16-54
+81            android:value="True" />
+81-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:55-75
+82        <meta-data
+82-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:5-84
+83            android:name="unity.allow-resizable-window"
+83-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:16-59
+84            android:value="False" />
+84-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:60-81
+85        <meta-data
+85-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:5-81
+86            android:name="notch.config"
+86-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:16-43
+87            android:value="portrait|landscape" />
+87-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:44-78
+88        <meta-data
+88-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:5-84
+89            android:name="unity.auto-report-fully-drawn"
+89-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:16-60
+90            android:value="true" />
+90-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:61-81
+91        <meta-data
+91-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:5-91
+92            android:name="com.unity.xr.oculus.LowOverheadMode"
+92-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:16-66
+93            android:value="false" />
+93-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:67-88
+94        <meta-data
+94-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:5-88
+95            android:name="com.unity.xr.oculus.LateLatching"
+95-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:16-63
+96            android:value="false" />
+96-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:64-85
+97        <meta-data
+97-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:5-93
+98            android:name="com.unity.xr.oculus.LateLatchingDebug"
+98-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:16-68
+99            android:value="false" />
+99-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:69-90
+100        <meta-data
+100-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:5-90
+101            android:name="com.oculus.supportedDevices"
+101-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:16-58
+102            android:value="quest|quest2" />
+102-->/Users/x/Unity/Channer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:59-87
+103    </application>
+104
+105</manifest>
